@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/attendance"
+            android:icon="@drawable/attendance"
+            android:title="Student Attendance" />
+        <item
+            android:id="@+id/timetable"
+            android:icon="@drawable/exam"
+            android:title="Exam Timetable" />
+        <item
+            android:id="@+id/fees"
+            android:icon="@drawable/fees"
+            android:title="Fees Details" />
+        <item
+            android:id="@+id/homework"
+            android:icon="@drawable/homework"
+            android:title="Home Work" />
+        <item
+            android:id="@+id/examresult"
+            android:icon="@drawable/examresult"
+            android:title="Exam Result" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/notification"
+            android:title="Notification" />
+    </group>
+
+
+
+
+</menu>
